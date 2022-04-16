@@ -961,6 +961,25 @@ most recommended.
       </div>
     </div>
 
+    
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'AcRG2E4ZSus2ZT73UsVXmwFy',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+    
+
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Cyber Alliance</span></strong>. All Rights Reserved
@@ -975,7 +994,7 @@ most recommended.
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
