@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cyber Alliance India | 404</title>
+  <meta name="description" content="Find us online!">
+  <meta name="author" content="Yudhvir Singh Godara">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta property="og:title" content=Cyber Alliance India | 404" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://links.cyberlliance.in" />
+  <meta property="og:image" content="https://links.cyberlliance.in/img/og.image.png" />
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="https://links.cyberalliance.in/img/apple-touch.png">
+
+  <link rel="stylesheet" href="css/404.css">
+
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <section class="notFound">
+      <div class="img">
+      <img src="img/heroes/backToTheHomepage.webp" alt="Back to the Homepage"/>
+      <img src="img/heroes/Delorean.webp" alt="El Delorean, El Doc y Marti McFly"/>
+      </div>
+      <div class="text">
+      <h1>404</h1>
+      <h2>PAGE NOT FOUND</h2>
+      <h3>BACK TO HOME?</h3>
+      <a href="index.html" class="yes">YES</a>
+      <a href="https://www.youtube.com/watch?v=GtL1huin9EE">NO</a>
+      </div>
+  </section>
+</body>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="js/vendor/push.min.js"></script>
+  <script src="js/vendor/serviceWorker.min.js"></script>
+  
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+
+  <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+
+    // Push Notification
+    Push.create("Ah huh 😖",{
+            body: "You're not supposed to be here!",
+            icon: '/icon.png',
+            timeout: 20000,
+            onClick: function () {
+                window.focus();
+                this.close();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+/*
+* cyberlink.io
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/*
+* Built using on:
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Buttons
+- Brand Styles
+
+*/
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover,
+.button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+.button.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Brand Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default (this is great for your own brand color!) */
+.button.button-default {
+  color: #ffffff;
+  background-color: #0085ff;
+}
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
+
+/* col1 */
+.button.button-col1 {
+  color: #ffffff;
+  background-color: #16212c;
+}
+.button.button-col1:hover,
+.button.button-col1:focus {
+  filter: brightness(90%);
+}
+
+/* lenovo */
+.button.button-lenovo {
+  color: #fff7fa;
+  background-color: #e2221a;
+}
+.button.button-lenovo:hover,
+.button.button-lenovo:focus {
+  filter: brightness(90%);
+}
+
+/* namecheap */
+.button.button-namecheap {
+  color: #fc5e08;
+  background-color: #ffffff;
+}
+.button.button-namecheap:hover,
+.button.button-namecheap:focus {
+  filter: brightness(90%);
+}
+
+/* hostinger */
+.button.button-hostinger {
+  color: #ffffff;
+  background-color: #673de6;
+}
+.button.button-hostinger:hover,
+.button.button-hostinger:focus {
+  filter: brightness(90%);
+}
+
+/* bluehost */
+.button.button-bluehost {
+  color: #3776b9;
+  background-color: #ffffff;
+}
+.button.button-bluehost:hover,
+.button.button-bluehost:focus {
+  filter: brightness(90%);
+}
+
+/* digital ocean */
+.button.button-digitalocean {
+  color: #0069ff;
+  background-color: #f9fafe;
+}
+.button.button-digitalocean:hover,
+.button.button-digitalocean:focus {
+  filter: brightness(90%);
+}
+
+/* ssl */
+.button.button-ssl {
+  color: #f5ee32;
+  background-color: #ffffff;
+}
+.button.button-ssl:hover,
+.button.button-ssl:focus {
+  filter: brightness(90%);
+}
+
+/* tailwind */
+.button.button-tailwind {
+  color: #1f2122;
+  background-color: #ffffff;
+}
+.button.button-tailwind:hover,
+.button.button-tailwind:focus {
+  filter: brightness(90%);
+}
+
+/* envato */
+.button.button-envato {
+  color: #81b441;
+  background-color: #ffffff;
+}
+.button.button-envato:hover,
+.button.button-envato:focus {
+  filter: brightness(90%);
+}

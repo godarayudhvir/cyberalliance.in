@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+	CEO/Founder: Yudhvir Singh Godara
+	Contact: ysg@cyberalliance.in
+	From: New Delhi, DL, India
+
+/* Outsourced Code */
+
+Thanks to Everybdy
+https://littlelink.io/supporters
+https://html5boilerplate.com/
+https://ianlunn.github.io/Hover/
+https://animate.style/
+https://getbootstrap.com/
+http://getskeleton.com/
+
+
+/* SITE */
+	Last update: 24-03-2023 02:32 AM IST
+    Language: English / More Soon*
+
+	Wouldn't have been possible without: Figma, GitHub, icons8.com, undraw.co
